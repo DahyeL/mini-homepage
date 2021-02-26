@@ -53,6 +53,7 @@
     padding-top: 0.5rem;
     padding-left: 1rem;
     color: rgb(72, 127, 153);
+    font-size: 0.9rem;
 
 }
 .contents {
@@ -60,6 +61,7 @@
     padding: 3rem;
     font-family: 'MaruBuri-Regular';
     line-height: 200%;
+    font-size: 0.9rem;
 }
 
 .secret_diary {
