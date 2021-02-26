@@ -1,0 +1,70 @@
+.scroll_box {
+    width: 33rem;
+    height: 33rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.guest_box {
+    flex: 0.4;
+}
+.guest_name {
+    padding: 0.3rem 0.3rem 0.3rem  1rem;
+    flex: 0.1;
+    background-color: rgb(214, 214, 214);
+    font-family: 'TmoneyRoundWindRegular';
+    color: black;
+    font-size: 14px;
+}
+.guest {
+    display: flex;
+    display: table;
+    margin-bottom: 5rem;
+}
+
+.guest_image {
+    margin: 1rem;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+}
+.background1 {
+    background-image: url("../images/앵그리버드배경_수정.jpg");
+}
+.background2 {
+    background-image: url("../images/풍조새배경.jpg");
+}
+.background3 {
+    background-image: url("../images/키위새배경.png");
+}
+.guest_image_inside {
+    width: 9rem;
+    height: 9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.guest_text {
+    margin: 1rem;
+    line-height: 170%;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'MaruBuri-Regular';
+}
+
+.number {
+    display: inline;
+    padding-left: 0.25rem;
+    padding-right: 0.5rem;
+    color: rgb(34, 123, 224);
+}
+
+i {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: gray;
+}

@@ -1,0 +1,200 @@
+body {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgb(168, 168, 168);
+    background-image: url("../images/pattern.png");
+    background-size: 6rem;
+}
+.bookcover {
+    position: relative;
+    margin: 100px auto;
+    width: 60rem;
+    height: 41rem;
+    background-color: rgb(175, 205, 216);
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+}
+.bookdot {
+    position: absolute;
+    width: 58rem;
+    height: 39rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1.5px dashed rgb(226, 226, 226);
+    border-radius: 10px;
+}
+
+.frame {
+    position: absolute;
+    width: 56rem;
+    height: 37rem;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+
+}
+
+.column1 {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+}
+.column2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.button {
+    flex: 0.1;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.box2 {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.row1 {
+    flex: 0.038;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.row2 {
+    flex: 0.038;
+    display: flex;
+}
+.text1 {
+    flex: 0.4;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.text2 {
+    flex: 0.6;
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: skyblue;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 7px;
+    border-bottom: 2px solid skyblue;
+}
+
+.image {
+    padding: 2rem;
+    width: 11rem;
+}
+.profile {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-family: 'MaruBuri-Regular';
+    font-size: 14px;
+    line-height: 150%;
+}
+.male {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-size: 14px;
+    font-family: 'MaruBuri-Regular';
+}
+
+.wave {
+    flex: 0;
+    width: 10rem;
+    margin-left: 2rem;
+    border: 1px solid darkgray;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    position: relative;
+}
+.wave_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 4.5px solid transparent;
+    border-right: 4.5px solid transparent;
+    border-top: 5px solid #838383;
+  }
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.wave:hover .dropdown {
+    display: block;   
+}
+.dropdown a {
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+}
+.dropdown a:hover {
+    background-color: #dbdbdb;
+}
+
+.btn {
+    padding-top: 0.3rem;
+    height: 1.5rem;
+    width: 4rem;
+    margin-top: 0.7rem;
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    background-color: rgb(252, 211, 135);
+    border-right:2px solid rgb(167, 136, 89);
+    border-top: 2px solid rgb(167, 136, 89);
+    border-bottom: 2px solid rgb(167, 136, 89);
+    color: rgb(167, 136, 89);
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover {
+    color: rgb(252, 211, 135);
+    background-color: rgb(204, 172, 123);
+}
+.btn:active {
+    color: rgb(252, 211, 135);
+    background-color: rgb(167, 136, 89);
+}
+
+span {
+    color: red;
+}
+
+
+
+
+
+
+
+

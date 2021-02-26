@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>나만의 미니홈피</title>
+        <link rel="stylesheet" href="./static/font.css" />
+        <link rel="stylesheet" href="./static/layout.css" />
+        <link rel="stylesheet" href="./static/diary.css" />
+        <script src="https://kit.fontawesome.com/10a8c81fe4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="bookcover">
+            <div class="bookdot">
+                <div class="page">
+                    <div class="frame">
+                        <div class="column1">
+                            <div class="row1">TODAY <span>77</span> | TOTAL 123456</div>
+                            <div class="box1"><img class="image" src="./images/뱁새.jpg" alt="뱁새" />
+                                <div class="profile">나도 내가 귀여운거 알고 있찌... 하지만 가끔은 좀 덜 귀엽고 싶달까?
+                                <br><br>후... 오늘도 ㄴr는 음악을 듣는ㄷr...★음악만이 나라에서 허락하는 유일한 마약이니카...</div>
+                                <div class="male">뱁새 (♂)
+                                </div>
+                                <div class="wave">
+                                    <div class="wave_box">
+                                        <div class="wave_title">파도타기</div>
+                                        <div class="triangle"></div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a href="https://cafe.naver.com/codeuniv" target="_blank">코뮤니티로 가기</a>
+                                        <a href="https://www.instagram.com/coding_comu/" target="_blank">인스타로 가기</a>
+                                    </div>
+                                </div>
+                            </div>                          
+                        </div>
+                        <div class="column2">
+                            <div class="row2">
+                                <div class="text1">나만의 추억 상ㅈr...★</div>
+                                <a class="text2" href="home.html">https://dahyel.github.io/mini-homepage/home.html</a>
+                            </div>                                               
+                            <div class="box2">
+                                <div class="date_month">
+                                    <div class="today">02.30<br>TUE</div>
+                                    <div class="every_date">
+                                        <div class="date">1</div>
+                                        <div class="date">2</div>
+                                        <div class="date">3</div>   
+                                        <div class="date blue">4</div>
+                                        <div class="date red">5</div> 
+                                        <div class="date">6</div> 
+                                        <div class="date">7</div>
+                                        <div class="date">8</div>
+                                        <div class="date">9</div>
+                                        <div class="date">10</div>
+                                        <div class="date blue">11</div>
+                                        <div class="date red">12</div>
+                                        <div class="date">13</div>
+                                        <div class="date">14</div>
+                                        <div class="date">15</div>
+                                        <div class="date">16</div>
+                                        <div class="date">17</div>
+                                        <div class="date blue">18</div>
+                                        <div class="date red">19</div>
+                                        <div class="date">20</div>
+                                        <div class="date">21</div>
+                                        <div class="date">22</div>
+                                        <div class="date">23</div>
+                                        <div class="date">24</div> 
+                                        <div class="date blue">25</div>
+                                        <div class="date red">26</div>
+                                        <div class="date">27</div>
+                                        <div class="date">28</div>
+                                        <div class="date">29</div>
+                                        <div class="date">30</div>
+                                    </div>
+                                </div>
+                                <div class="scroll_box">
+                                    <div class="date_box">
+                                        <div class="day">2021.02.22 월 21:24</div>
+                                        <div class="contents">
+                                            나,<br>차가워 질꺼야...<br>따뜻하게 살기에는<br>세상이 날 너무<br>만만하게 보니까...
+                                        </div>
+                                    </div>
+                                    <div class="date_box">
+                                        <div class="day">2021.02.14 일 09:18</div>
+                                        <div class="contents">
+                                            나를 욕하는 people들<br>나를 놀리는 people들<br><br>...나도 알아 내가 귀여운거<br>그냥 니 마음을 말하란 말이야<br><br><div class="red">인기있는 삶은 힘들다</div>
+                                        </div>
+                                    </div>
+                                    <div class="date_box">
+                                        <div class="day">2021.01.01 금 12:34</div>
+                                        <div class="contents">
+                                            내가 아니면 아닌거고<br>내가 싫으면 싫은거다<br>강요하지마<br>나는 나일 뿐이니까.
+                                        </div>        
+                                    </div>
+                                    <div class="date_box" id="text">
+                                        <div class="day">뱁새의 secret...★ 아무도 보지 말 것!</div>
+                                        <div class="contents" id="secret-diary"></div>
+                                    </div>
+                                    <div class="secret_diary">뱁새's secret diary
+                                        <div class="secret">
+                                            <div class="secret_box" onclick="clickButton()"><i class="fas fa-lock icon"></i> 뱁새's secret diary★</div>
+                                        </div>  
+                                    </div>                                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <br>
+                            <br>
+                            <a class="btn" href="./home.html">홈</a>
+                            <a class="btn" href="./diary.html">다이어리</a>
+                            <a class="btn" href="./photo.html">사진첩</a>
+                            <a class="btn" href="./guestbook.html">방명록</a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            
+            function clickButton() {
+                var input = document.createElement("input");
+                input.type = "file"
+                input.accept = "text/plain";
+                input.onchange = function (event) {
+                    processFile(event.target.files[0]);
+                };
+                input.click();
+            }
+
+            function processFile(file) {
+                var reader = new FileReader();
+                reader.readAsText(file, "utf-8");
+
+                reader.onload = function () {
+                    document.getElementById("secret-diary").innerText = reader.result;
+                    document.getElementById("text").style.display = "block";
+                };
+            }
+        </script>
+    </body>
+</html>

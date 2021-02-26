@@ -1,0 +1,100 @@
+.date_month {
+    flex-basis: 0.05%;
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    border: 0.5px solid rgb(177, 177, 177);
+    margin: 1rem;
+    border-radius: 10px;
+}
+.today {
+    flex-basis: 15%;
+    font-size: 1rem;
+    padding: 7px;
+    text-align: center;
+    color: rgb(72, 127, 153);
+    font-family: 'LAB디지털';
+}
+.every_date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 80%;
+    font-family: 'LAB디지털';
+    color: rgb(85, 85, 85);
+}
+.date {
+    padding: 5px;
+    font-size: 0.9rem;
+}
+.blue {
+    color: rgb(61, 61, 223);
+}
+.red {
+    color: rgb(223, 69, 69);
+}
+
+.scroll_box {
+    width: 34rem;
+    height: 28rem;
+    margin-top: 0.85rem;
+    margin-left: 1rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.date_box {
+    flex: 0.9;
+    border: 1px solid rgb(192, 192, 192);
+    margin: 2rem;
+    font-size: 0.9rem;
+    
+}
+
+.day {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    color: rgb(72, 127, 153);
+
+}
+.contents {
+    text-align: center;
+    padding: 3rem;
+    font-family: 'MaruBuri-Regular';
+    line-height: 200%;
+}
+
+.secret_diary {
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    background-color: white;
+    color: white;
+    left: 8.8rem;  
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+.secret {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.secret_diary:hover .secret {
+    width: 11rem;
+    height: 1.5rem;
+    background-color: rgb(188, 219, 229);
+    display: block;
+    text-align: center;
+    padding: 3px;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-family: 'MaruBuri-Regular';
+}
+
+.icon {
+    color: white;
+}
+
+#text {
+    display: none;
+}

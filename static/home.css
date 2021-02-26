@@ -1,0 +1,85 @@
+.menu1 {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+}
+.menu2 {
+    flex: 0.6;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgb(248, 241, 237);
+}
+
+.contents1 {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+.contents2 {
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    margin-left: 1rem;  
+    flex: 0.2;
+    display: flex;
+    flex-direction: row;
+}
+
+.mark {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    flex: 0.25;
+    border-radius: 3px;  
+    margin: 2px;
+    padding-top: 0.2rem;
+    font-family: 'BMHANNAAir';
+    text-decoration: none;
+}
+.red {
+    background-color: tomato;
+}
+.blue {
+    background-color: dodgerblue;
+}
+
+.txt {
+    flex: 2.2;
+    text-align: left;
+    margin-left: 3px;
+    font-family: 'MaruBuri-Regular';
+    margin-bottom: 0.3rem;
+    font-size: 13px;
+}
+
+.lists {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    flex: 0.5;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+.li {
+    flex: 0.5;
+    font-size: 11px;
+    font-family: 'paybooc-Medium';
+}
+
+.count {
+    font-size: 8px;
+    color: blue;
+} 
+
+.menu2 img {
+    margin-left: 4.5rem;
+    width: 19rem;
+}
+
